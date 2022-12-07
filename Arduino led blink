@@ -1,0 +1,12 @@
+byte led = 5 ;
+
+
+void setup () {
+PinMode(led, OUPUT);
+
+}
+
+void loop () {
+digital
+
+}
