@@ -1,15 +1,21 @@
 byte led = 5 ;
+byte tombol = 2
+int nilaitombol ;
 
 
 void setup () {
 PinMode(led, OUPUT);
+PinMode(tombol, INPUT);
 
 }
 
 void loop () {
+nilaitombol = digitalread (tombol);
+if ( tombol == 1 ){
 digitalwrite (led, HIGH);
-delay (1000);
+}
+else (){
 digitalwrite (led, LOW);
-delay (1000);
+}
 
 }
