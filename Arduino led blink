@@ -7,6 +7,9 @@ PinMode(led, OUPUT);
 }
 
 void loop () {
-digital
+digitalwrite (led, HIGH);
+delay (1000);
+digitalwrite (led, LOW);
+delay (1000);
 
 }
